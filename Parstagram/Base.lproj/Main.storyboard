@@ -169,6 +169,28 @@
                                             <outlet property="nameLabel" destination="z1F-lU-G6s" id="mUd-a0-imi"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="SS7-kM-X7K">
+                                        <rect key="frame" x="0.0" y="543.5" width="414" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SS7-kM-X7K" id="MpG-CN-WL5">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcl-DL-PFC">
+                                                    <rect key="frame" x="16" y="8" width="390" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Kcl-DL-PFC" secondAttribute="trailing" constant="8" id="D9B-5s-0tu"/>
+                                                <constraint firstItem="Kcl-DL-PFC" firstAttribute="leading" secondItem="MpG-CN-WL5" secondAttribute="leading" constant="16" id="HNS-aK-CNt"/>
+                                                <constraint firstItem="Kcl-DL-PFC" firstAttribute="top" secondItem="MpG-CN-WL5" secondAttribute="top" constant="8" id="cnX-zh-3EK"/>
+                                                <constraint firstAttribute="bottom" secondItem="Kcl-DL-PFC" secondAttribute="bottom" constant="8" id="gdM-aQ-L7N"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
